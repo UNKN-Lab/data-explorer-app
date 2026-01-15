@@ -1,7 +1,7 @@
 import streamlit as st
 import plotly.graph_objects as go
 import pandas as pd
-from lib.data import get_data
+from utils import get_data
 
 
 st.title("Sales Trend")

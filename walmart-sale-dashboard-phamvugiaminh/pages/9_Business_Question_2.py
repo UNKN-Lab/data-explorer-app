@@ -4,7 +4,7 @@ import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 import matplotlib.pyplot as plt
-from lib.data import get_data
+from utils import get_data
 import warnings
 warnings.filterwarnings('ignore')
 

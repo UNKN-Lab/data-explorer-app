@@ -5,7 +5,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import matplotlib.pyplot as plt
 import seaborn as sns
-from lib.data import get_data
+from utils import get_data
 import warnings
 warnings.filterwarnings('ignore')
 

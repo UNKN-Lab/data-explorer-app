@@ -14,7 +14,7 @@ try:
     from scipy.stats import levene, f_oneway
 except ModuleNotFoundError:
     levene = f_oneway = None
-from lib.data import get_data
+from utils import get_data
 
 
 st.set_page_config(

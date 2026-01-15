@@ -29,7 +29,7 @@ def get_df():
 		return st.session_state['df_main']
 	# Attempt to lazily load via shared data loader
 	try:
-		from lib.data import get_data
+		from utils import get_data
 		loaded = get_data()
 		# Mirror under 'df' for convenience on this page
 		st.session_state['df'] = loaded

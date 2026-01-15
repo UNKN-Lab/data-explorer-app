@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from lib.data import get_raw_data
+from utils import get_raw_data
 
 
 st.title("Data Overview")

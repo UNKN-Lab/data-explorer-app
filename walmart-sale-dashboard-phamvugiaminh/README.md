@@ -58,26 +58,24 @@ The project answers two key business questions with rigorous statistical methods
 
 ```
 walmart-sale-dashboard/
-├── Home.py                     # Main entry point / landing page
-├── requirements.txt            # Python dependencies
-├── README.md                   # Project documentation
+├── Home.py                      # Main entry point / landing page
+├── utils.py                     # Data loading utilities (get_data, get_raw_data)
+├── requirements.txt             # Python dependencies
+├── README.md                    # Project documentation
 ├── walmart_sales_analysis.ipynb # Jupyter notebook with full analysis
-├── .streamlit/                 # Streamlit configuration
+├── .streamlit/                  # Streamlit configuration
 ├── data/
 │   ├── Walmart_Sales.csv                        # Raw dataset
 │   ├── Walmart_Sales_cleaned.csv                # Cleaned dataset
 │   └── Walmart_Sales_processed_with_climate.csv # Dataset with climate clusters
-├── lib/
-│   ├── __init__.py             # Package initializer
-│   └── data.py                 # Data loading and caching utilities
 └── pages/
-    ├── 1_Data_Overview.py      # Dataset structure exploration
-    ├── 2_Sales_Trend.py        # Time-series analysis
-    ├── 3_Climate_Impact.py     # Climate-based segmentation
-    ├── 4_Store_Comparison.py   # Store performance comparison
-    ├── 5_Holiday_Impact.py     # Holiday sales analysis
-    ├── 6_Final_Strategy.py     # Business recommendations
-    ├── 7_EDA.py                # Exploratory data analysis
+    ├── 1_Data_Overview.py       # Dataset structure exploration
+    ├── 2_Sales_Trend.py         # Time-series analysis
+    ├── 3_Climate_Impact.py      # Climate-based segmentation
+    ├── 4_Store_Comparison.py    # Store performance comparison
+    ├── 5_Holiday_Impact.py      # Holiday sales analysis
+    ├── 6_Final_Strategy.py      # Business recommendations
+    ├── 7_EDA.py                 # Exploratory data analysis
     ├── 8_Business_Question_1.py # Climate impact statistical tests
     └── 9_Business_Question_2.py # Holiday effect ML analysis
 ```

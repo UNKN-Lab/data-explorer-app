@@ -2,7 +2,7 @@ import streamlit as st
 import plotly.express as px
 import numpy as np
 import pandas as pd
-from lib.data import get_data
+from utils import get_data
 
 
 st.title("Climate Impact")
