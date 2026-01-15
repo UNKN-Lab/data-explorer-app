@@ -68,6 +68,7 @@ walmart-sale-dashboard/
 │   ├── Walmart_Sales_cleaned.csv                # Cleaned dataset
 │   └── Walmart_Sales_processed_with_climate.csv # Dataset with climate clusters
 ├── lib/
+│   ├── __init__.py             # Package initializer
 │   └── data.py                 # Data loading and caching utilities
 └── pages/
     ├── 1_Data_Overview.py      # Dataset structure exploration
