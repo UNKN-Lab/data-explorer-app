@@ -222,25 +222,5 @@ Stores are clustered into 5 climate groups based on temperature patterns:
 
 ---
 
-## 📸 Screenshots
 
-### Home Dashboard
-The landing page provides an overview of total sales, average weekly sales, and a time-series chart for quick insights.
-
-### Business Question Analysis
-Interactive statistical tests and SHAP visualizations help explain the factors driving sales performance.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 📧 Contact
-
-For questions or feedback, please open an issue in the repository.
-
----
 
